@@ -4,5 +4,12 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+    production: false,
+    endPoint: 'http://10.1.108.12/DAW2/M12/armagedon/public/api/',
+    updateParameter: 'update-parameter',
+    login: 'login',
+    register: 'register',
+    authCode: 'validate-user',
+    logout: 'logout',
+    getParameter: 'get-parameter'
 };

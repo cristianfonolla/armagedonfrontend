@@ -1,0 +1,36 @@
+<!--&lt;!&ndash;Cpu: {{cpuPerc}}<br>&ndash;&gt;-->
+<!--&lt;!&ndash;Mem: {{memPerc}}<br>&ndash;&gt;-->
+<!--&lt;!&ndash;Net: {{netPerc}}&ndash;&gt;-->
+
+<!--<br><br>-->
+<!--<input type="button" value="Init Cpu" (click)="initCpu()">-->
+<!--<input type="button" value="Init Mem" (click)="initMem()">-->
+<!--<input type="button" value="Init Net" (click)="initNet()">-->
+
+
+<!--<div class="row">-->
+    <!--<div class="col-md-6">-->
+        <!--<div style="display: block;">-->
+            <!--<canvas baseChart width="400" height="400"-->
+                    <!--[datasets]="lineChartData"-->
+                    <!--[labels]="lineChartLabels"-->
+                    <!--[options]="lineChartOptions"-->
+                    <!--[colors]="lineChartColors"-->
+                    <!--[legend]="lineChartLegend"-->
+                    <!--[chartType]="lineChartType"-->
+                    <!--(chartHover)="chartHovered($event)"-->
+                    <!--(chartClick)="chartClicked($event)"></canvas>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;<div class="col-md-6" style="margin-bottom: 10px">&ndash;&gt;-->
+        <!--&lt;!&ndash;<table class="table table-responsive table-condensed">&ndash;&gt;-->
+            <!--&lt;!&ndash;<tr>&ndash;&gt;-->
+                <!--&lt;!&ndash;<th *ngFor="let label of lineChartLabels">{{label}}</th>&ndash;&gt;-->
+            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+            <!--&lt;!&ndash;<tr *ngFor="let d of lineChartData">&ndash;&gt;-->
+                <!--&lt;!&ndash;<td *ngFor="let label of lineChartLabels; let j=index">{{d && d.data[j]}}</td>&ndash;&gt;-->
+            <!--&lt;!&ndash;</tr>&ndash;&gt;-->
+        <!--&lt;!&ndash;</table>&ndash;&gt;-->
+        <!--&lt;!&ndash;<button (click)="randomize()">CLICK</button>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</div>-->

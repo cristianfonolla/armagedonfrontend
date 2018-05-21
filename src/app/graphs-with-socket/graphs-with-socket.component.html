@@ -1,0 +1,15 @@
+
+
+<div class="row" id="graph">
+    <div class="col-md-12">
+            <canvas baseChart width="310" height="320"
+                    [datasets]="lineChartData"
+                    [labels]="lineChartLabels"
+                    [options]="lineChartOptions"
+                    [colors]="lineChartColors"
+                    [legend]="lineChartLegend"
+                    [chartType]="lineChartType"
+                    (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)"></canvas>
+    </div>
+</div>
